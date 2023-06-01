@@ -1,0 +1,24 @@
+---
+date: 2021-10-10 11:30:32
+slug: concrete-beats-abstract
+title: "Concrete Beats Abstract"
+summary: |
+  When it comes to setting and achieving goals, concrete goals lead to better engagement and more actionable steps.  Abstract goals can lead to a shared vision, but concrete goals lead to actual improvements.
+---
+One of my hobbies is amateur powerlifting.  Growth in powerlifting happens in multiple phases.  In the beginner phase, there's a linear growth of strength from session to session.  In the intermediate phase, growth is still mostly linear but modeled out over month to month.  There are macrocycles of longer term planning (months or even a year), mesocycles of middle term planning (weeks to months), and microcycles (sessions or weeks).  The goal may be to increase a lift by 10lbs by the end of the month (mesocycle) with targeted goals in each session (microcycle).
+
+The goal for many powerlifting programs is to find a weight that's heavy enough to induce enough stress and perform enough reps to induce growth.  Executing a one rep max might cause form breakdown and exceptional fatigue that's difficult to recover from.  However, a lifter may be able to comfortably perform 5 reps at around 85-90% of their max.  Performing multiple reps at a sub-max weight is a way to get stronger safely.
+
+There becomes a question of how many reps one should perform at a sub-max weight.  One of the common ways to set microcycle goals is to use the AMRAP pattern.  AMRAP stands for "as many reps as possible."  Once a powerlifter defines a working weight, they'll execute repetitions until they get to a point of fatigue, stopping before the point of failure.
+
+AMRAP is an excellent way to inducing sufficient fatigue to stimulate growth, but only if the lifter pushes hard enough to actually do as many reps as necessary.  I have a problem following the AMRAP pattern.  That is a mental problem.  When I see AMRAP sets on my program, there's some subconcious process that just adds 1 to whatever number of reps I typically do.  So if I can normally knock out 5 reps, my AMRAP set is sometimes just 6, maybe 7.  This is, theoretically, sufficient, but it's less than I can *actually* do.  It's sufficient for growth, but not optimized for maximal growth.
+
+I've recently taken away AMRAP sets from my workout and just adding 50% of my reps (rounded up) instead.  For example, if my workout is doing sets of 5 reps, I'll do 8 (2.5 rounded up) reps instead of an AMRAP set.  If my workout calls for 3 reps, then I do 5 (1.5 rounded up to 2).  For heavy singles, I double them.  I've found that if I still have more in the tank after doing this, then I chose a weight that was too light.  However, I've found that I'm reliably better stimulated by focusing on knocking out a set number rather than doing AMRAP sets.  Having a concrete expectation gives me focus.  What used to wind up being 6 or 7 reps is now at least 8 every time.
+
+I mention because having concrete goals can help us do more and execute better than having open ended, abstract goals.  The problem with AMRAP sets isn't that they don't work.  They do.  And for some people, having an open-ended number of repetitions gives them the freedom to execute well.  However, for some of us, the open-ended nature gives us freedom to do less than necessary.  Without a concrete goal, we'll do just enough to meet the requirements and not enough to really get the job done.
+
+Having a concrete goal makes the requirement more appreciable.  It makes success binary.  You either do or don't, pass or fail.  When I see "5+" (AMRAP) on my program and I do 6 reps, then I've done enough to pass the requirement but, often, not enough to really see strength growth.  However, when I see "8" on my spreadsheet, I set my mind to do 8 reps.  There's not a sense of "this was enough, everything else is a bonus" but rather a sense of "I'm not done until I get this many."
+
+I've been thinking about this recently and how it applies to my profession.  When I give abstract goals to the team, we often achieve them in a minimal way.  If I said: "Add more automated tests," then my team will add a test or two in their PRs.  We have some notion of what the goal is and the bare minimum of requirements.  We grow until we reach it and then stop.  However, if I lay out a clear, actionable plan for deliberate growth, we grow a lot farther and a lot faster.  If I instead said: "All new code needs 100% automated test coverage," my team will meet the expectation.
+
+AMRAP-style abstract goals work for some people and some teams.  Use the right methodology for the right teams and goals.  But be aware of your teams needs and how they respond to the goals that you set.  Making the goals concrete often makes them actionable.  Empower your team to achieve excellence by setting ambitious, achievable, actionable, and concrete goals.

@@ -1,0 +1,5 @@
+baseURL = 'https://objectiveceo.org/'
+languageCode = 'en-us'
+title = '[Objective CEO]'
+theme = 'ananke'
+background_color_class = 'bg-orange'
