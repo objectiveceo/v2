@@ -1,6 +1,6 @@
 ---
 title: "Understanding Hamt"
-date: 2023-07-22T19:26:37-04:00
+date: 2023-07-26T19:26:37-04:00
 draft: false
 summary: |
   I never had the benefit of a computer science degree.  So every so often, I
