@@ -3,11 +3,11 @@ title: "Understanding Hamt"
 date: 2023-07-22T19:26:37-04:00
 draft: false
 summary: |
-	I never had the benefit of a computer science degree.  So every so often, I
-	take some time to learn something that I've heard about and maybe even used
-	but didn't really take the time to understand well enough to appreciate.
-	In the last couple of weeks, I've been picking at HAMT and trying to
-	understand how that data type works.
+  I never had the benefit of a computer science degree.  So every so often, I
+  take some time to learn something that I've heard about and maybe even used
+  but didn't really take the time to understand well enough to appreciate.
+  In the last couple of weeks, I've been picking at HAMT and trying to
+  understand how that data type works.
 ---
 
 Let me throw some additional reading up front.  These blog posts helped explain
@@ -325,4 +325,11 @@ I hope that I haven't made *too* many mistakes in my explanation of how HAMTs
 work conceptually.  Refer to the articles that I linked at the top for more
 practical implementation details.
 
-**Section left for post-push update...**
+If I've made any obvious or glaring errors, please leave a Github Issue
+referring to the [raw
+content](https://github.com/objectiveceo/v2/blob/main/content/posts/understanding-hamt.md)
+of this post.  I would greatly appreciate it!
+
+I hope this explanation helps you understand HAMTs a bit better.  That said, I
+really hope that it spurs your curiosity about data type implementations and are
+curious to learn more about how they work as well.
