@@ -204,7 +204,7 @@ Let's insert one more...
 
 destiny: 00110111
               /  \
-		right right
+	right right
 
 ------------------------------------
 

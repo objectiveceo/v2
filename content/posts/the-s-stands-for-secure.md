@@ -51,9 +51,9 @@ First, we need to know that the "certbot" [command line options][certbot_usergui
 
 With that done, we're part of the way to accepting ACME challenges.  The other part is that Let's Encrypt doesn't know about our "8443" port.  It doesn't know how to reach the "certbot" standalone server.  That's not a big deal, we'll just add a [block to our NGINX configuration](https://github.com/objectiveceo/coordinator/commit/26f658b6267cd7dff760650cf12c3a6817bd0cbb#diff-368c5721ce2622d7058edf46e4b7da9ac570e17e0097959fc88b9e83569aad38) that forwards that along.  Note that if you're on Linux, you'll need to make some special changes for the URL that we're forwarding to (read the ["Note" paragraph](https://github.com/objectiveceo/coordinator/tree/main/nginx#setup) and c.f. [this line of my script](https://github.com/objectiveceo/devops/blob/main/host-bin/rebuildNginx.sh#L10)).
 
-With this done, "certbot" can community with the Let's Encrypt service, communicate our DNS entry to them, run a standalone server that's ready to verify information, and our NGINX configuration will forward requests to that server.  Our next step is to actually [run "certbot"](https://github.com/objectiveceo/devops/blob/efc52351e3d40ac564023eb4fa16275c215fe342/host-bin/certbot-setup.sh) and fetch our certs.
+With this done, "certbot" can talk to the Let's Encrypt service, communicate our DNS entry to them, run a standalone server that's ready to verify information, and our NGINX configuration will forward requests to that server.  Our next step is to actually [run "certbot"](https://github.com/objectiveceo/devops/blob/efc52351e3d40ac564023eb4fa16275c215fe342/host-bin/certbot-setup.sh) and fetch our certs.
 
-# A short diveration on DH Parameters
+# A short diversion on DH Parameters
 
 I was following the [guide][guide] that I mentioned earlier.  I saw that there was a recommendation of configuration Diffie-Hellman Parameters.  Here, I want to admit a certain ignorance: I have no idea if this is necessary.
 
